@@ -1,5 +1,11 @@
 package observer;
 
+/**
+ * インスタンスの変更を監視するクラス
+ * 
+ * @author naramasato
+ *
+ */
 public class Client implements Observer {
 
 	@Override

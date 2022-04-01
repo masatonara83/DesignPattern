@@ -4,6 +4,9 @@ public class DataChanger extends Subject {
 
 	private int status;
 
+	/**
+	 * {@link #notifyObServers()}
+	 */
 	@Override
 	public void execute() {
 		status++;
